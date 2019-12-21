@@ -81,7 +81,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 600;
-    color: set-text-color(#444);
+    color: #fff;
     text-decoration: none;
     transition: all 0.25s ease-out; }
     .menu .nav-link:hover {

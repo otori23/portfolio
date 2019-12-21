@@ -10,7 +10,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -49,6 +49,7 @@
     visibility: visible;
   }
 
+  // For Both Branding and Nav Sides of Menu
   &-branding,
   &-nav {
     display: flex;
@@ -61,6 +62,7 @@
     overflow: hidden;
   }
 
+  // Nav Side of Menu
   &-nav {
     margin: 0;
     padding: 0;
@@ -75,7 +77,7 @@
     }
   }
 
-  // Branding Side
+  // Branding Side of Menu
   &-branding {
     background: $primary-color;
     transform: translate3d(0, 100%, 0);

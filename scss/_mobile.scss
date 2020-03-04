@@ -64,6 +64,10 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .form-control {
+    text-align: left;
+  }
 }
 
 // Smartphones
@@ -74,5 +78,17 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .form {
+    width: 100%;
+    padding: 0 5px;
+    margin: auto;
+  }
+
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 4.5rem;
   }
 }

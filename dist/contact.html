@@ -51,15 +51,52 @@
     <main id="contact">
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">
-        This is how you can reach me...
+        Fill out the form to reach me...
       </h2>
-      <div class="boxes">
-        <div><span class="text-secondary">Email:</span> johndoe@test.test</div>
-        <div><span class="text-secondary">Phone:</span> (555) 555-5555</div>
-        <div>
-          <span class="text-secondary">Address:</span> 50 Main St., Boston MA
-          02101
-        </div>
+      <div class="form">
+        <form
+          id="form"
+          method="POST"
+          action="https://formspree.io/azeez.otori@gmail.com"
+          name="form"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://otori23.github.io/portfolio/thanks.html"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Portfolio Contact Form Submission"
+          />
+          <div class="form-control">
+            <label for="fullname">Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Lebron James"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="lebron.james@lakers.com"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </main>
 

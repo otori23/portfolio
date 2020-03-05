@@ -176,6 +176,17 @@ main {
   background-color: $secondary-color;
 }
 
+// About
+
+.about-info {
+  p {
+    &.contact {
+      a:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
 // Button Styles
 .btn {
   display: block;

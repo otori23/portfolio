@@ -229,6 +229,9 @@ main {
 .form button:hover {
   background-color: #d88519; }
 
+.about-info p.contact a:hover {
+  color: #d88519; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
